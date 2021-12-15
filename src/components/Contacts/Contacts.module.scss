@@ -1,0 +1,22 @@
+.ContactsList {
+  text-align: left;
+}
+
+.ContactsItem {
+    display: flex;
+    padding: 10px;;
+
+    align-items: center;
+    height: 60px;
+    justify-content: space-between;
+
+    border-radius: 5px;
+    border: 1px solid transparent;
+
+    transition: all cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+
+    &:hover {
+      border: 1px solid #1976d2;
+      color: #1976d2
+    }
+}
